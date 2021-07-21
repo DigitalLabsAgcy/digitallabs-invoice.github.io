@@ -75,3 +75,7 @@ strong a {
 .section-solid-blue {
 	background-color: var(--color-blue);
 }
+
+.section-solid-blue h2, .section-solid-blue h3, .section-solid-blue h4, .section-solid-blue p {
+	color:  white;
+}
