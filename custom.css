@@ -27,14 +27,15 @@ a, div, p, ul, li, tr, th, td {
 h1, h2, h3, h4 { 
 	color: var(--color-blue);
 	font-family: var(--font-general);
-	font-weight: 800;
+	font-weight: 500;
+	text-align: center;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
 
-h2, .et_pb_column_1_3 h2, .et_pb_column_1_4 h2, .et_pb_column_1_5 h2, .et_pb_column_1_6 h2, .et_pb_column_2_5 h2 {
+h2 {
 	font-size: 1.7248rem;
 }
 
@@ -42,9 +43,8 @@ h3 {
 	font-size: 2.0452rem;
 }
 
-h4, .et_pb_column_1_3 h4, .et_pb_column_1_4 h4, .et_pb_column_1_5 h4, .et_pb_column_1_6 h4, .et_pb_column_2_5 h4 {
+h4 {
 	font-size: 2.0452rem;
-	font-weight: 500;
 }
 
 h5 {
@@ -68,4 +68,10 @@ strong a {
 
 .two-columns-row {
 	grid-template-columns: 50% 50%;
+}
+
+
+/*general*/
+.section-solid-blue {
+	background-color: var(--color-blue);
 }
