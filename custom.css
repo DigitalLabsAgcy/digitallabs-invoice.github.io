@@ -24,6 +24,10 @@ a, div, p, ul, li, tr, th, td {
 	font-family: var(--font-general);
 }
 
+select, input {
+	color: var(--color-light-blue);
+}
+
 h1, h2, h3, h4 { 
 	color: var(--color-blue);
 	font-family: var(--font-general);
