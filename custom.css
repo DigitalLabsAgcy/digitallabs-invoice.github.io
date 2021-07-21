@@ -1,4 +1,63 @@
-.page-container {
+:root {
+	font-size: 16px;
+	--color-blue: #236298;
+    --color-red: #A50410;
+    --color-red-2: #E76156;
+    --color-light-blue: #27A6DA;
+    --color-gray: #F4F4F4;
+    --filter-black: #0000004a;
+
+    --standard-padding: 4em 0;
+    --large-padding: 9vw 0;
+    --small-padding: 3vw 0;
+
+    --font-general:  'Raleway', sans-serif;
+}
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');
+
+a, div, p, ul, li, tr, th, td {
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--color-light-blue);
+	font-family: var(--font-general);
+}
+
+h1, h2, h3, h4 { 
+	color: var(--color-blue);
+	font-family: var(--font-general);
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2, .et_pb_column_1_3 h2, .et_pb_column_1_4 h2, .et_pb_column_1_5 h2, .et_pb_column_1_6 h2, .et_pb_column_2_5 h2 {
+	font-size: 1.7248rem;
+}
+
+h3 {
+	font-size: 2.0452rem;
+}
+
+h4, .et_pb_column_1_3 h4, .et_pb_column_1_4 h4, .et_pb_column_1_5 h4, .et_pb_column_1_6 h4, .et_pb_column_2_5 h4 {
+	font-size: 2.0452rem;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: .85rem;
+}
+
+strong a {
+	font-weight: 800;
+}
+
+
+/*Basic grid*/
+.row {
 	max-width: 1080px;
 	margin: auto;
 }
