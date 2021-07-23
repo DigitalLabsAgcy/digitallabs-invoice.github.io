@@ -99,9 +99,20 @@ strong a {
 /*Home*/
 .widget {
 	margin-bottom: 2em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+
+ul {
+	padding-inline-start: 1em;
 }
 
 .row-paquetes .widget {
     box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 20%);
     border-radius: 1rem;
+    padding: 1em;
+}
+
+.last-element {
+	margin-right: 0;
 }
