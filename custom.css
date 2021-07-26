@@ -98,8 +98,7 @@ strong a {
 
 /*Home*/
 .widget {
-	margin-bottom: 2em;
-    margin-right: 4em;
+    margin: 0 2em;
     margin-bottom: 2em;
 }
 
