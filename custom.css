@@ -26,6 +26,7 @@ a, div, p, ul, li, tr, th, td {
 
 select {
 	color: var(--color-blue);
+	padding:  .3em;
 }
 
 input {
@@ -107,15 +108,12 @@ strong a {
 }
 
 ul {
-	padding-inline-start: 1em;
+	padding-inline-start: .5em;
 }
 
 li {
 	list-style-type: "-";
-}
-
-li::marker {
-	margin-left: -1em;
+	padding-left: .5em;
 }
 
 .row-paquetes .widget {
@@ -134,4 +132,10 @@ li::marker {
 
 .content-support .intern-row h3 {
 	margin-bottom:  0.5em;
+}
+
+.check-option {
+	padding: .75em;
+	border-radius: .5em;
+	border: 1px solid var(--color-light-blue);
 }
