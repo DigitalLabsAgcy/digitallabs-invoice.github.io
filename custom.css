@@ -127,14 +127,28 @@ li {
 }
 
 .check-option {
-	padding: .75em;
+	padding: 1.2em;
 	border-radius: .5em;
 	border: 1px solid var(--color-light-blue);
+	min-height: 3em;
 }
 
 .check-option h4 {
 	font-weight: 500;
 	color: var(--color-light-blue);
+	margin: 0;
+}
+
+.check-option h4, .check-option input, .check-option label {
+	margin:  auto 0;
+}
+
+.cant-paginas {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    width: 80;
+    padding: .3em 0;
 }
 
 
