@@ -148,6 +148,10 @@ li {
 	margin: 0;
 }
 
+.check-option input, .check-option label {
+	font-size:  1.15rem;
+}
+
 .check-option h4, .check-option input, .check-option label {
 	margin:  auto 0;
 }
