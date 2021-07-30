@@ -7,9 +7,9 @@
     --color-gray: #F4F4F4;
     --filter-black: #0000004a;
 
-    --standard-padding: 4em 0;
-    --large-padding: 9vw 0;
-    --small-padding: 3vw 0;
+    --standard-padding: 2em 0;
+    --large-padding: 4em 0;
+    --small-padding: 1.5em 0;
 
     --font-general:  'Raleway', sans-serif;
 }
@@ -88,8 +88,20 @@ strong a {
 	background-color: var(--color-blue);
 }
 
-.section-solid-blue h2, .section-solid-blue h3, .section-solid-blue h4, .section-solid-blue p {
+.section-solid-blue h2 {
 	color:  white;
+}
+
+.align-center {
+	text-align:  center;
+}
+
+body {
+	margin: 0;
+}
+
+section {
+	padding: var(--standard-padding);
 }
 
 /*Home*/
@@ -186,6 +198,10 @@ li {
     color: white;
     font-weight: 700;
     padding: .5em 0;
+}
+
+.so-dev .row-paquetes .widget, .membresias-section .row-paquetes .widget {
+	padding: 1em 2em;
 }
 
 
