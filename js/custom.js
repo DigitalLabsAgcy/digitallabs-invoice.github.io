@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
   var diseño = "";
   var pagContenido = "";
 
-  jQuery('.sub-paquete .basic').click(function() {
+  jQuery('.sup-paquete .basic').click(function() {
 
     contenido = jQuery(this).data('price');
 
@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
   
   });
 
-  jQuery('.sub-paquete .basic').click(function() {
+  jQuery('.sup-paquete .basic').click(function() {
 
     pagContenido = jQuery('.cant-paginas').val();
 
@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
   
   });
 
-  jQuery('.sub-paquete .complete').click(function() {
+  jQuery('.sup-paquete .complete').click(function() {
 
     jQuery(this).data('price');
   });
