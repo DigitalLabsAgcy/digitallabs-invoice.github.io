@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
 
   jQuery('.sub-paquete .basic').click(function() {
 
-    contenido = jQuery(this).data('price');
+    contenido = jQuery('.sub-paquete .basic').data('price');
 
     console.log(contenido);
   
