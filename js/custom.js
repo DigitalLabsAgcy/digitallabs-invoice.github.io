@@ -7,6 +7,8 @@ jQuery(document).ready(function() {
 
 });*/
 
-console.log(jQuery('.sub-paquete .basic').data('price'));
+console.log("testing js file");
+
+jQuery('.sub-paquete .basic').data('price');
 
 });
