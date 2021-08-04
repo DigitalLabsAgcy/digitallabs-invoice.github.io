@@ -1,14 +1,12 @@
 
 jQuery(document).ready(function() {
 
-/*jQuery('.sub-paquete .basic').click(function() {
+  console.log("testing js file");
 
-  jQuery(this).data('price');
+  jQuery('.sub-paquete .basic').click(function() {
 
-});*/
-
-console.log("testing js file");
-
-jQuery('.sub-paquete .basic').data('price');
+    jQuery(this).data('price');
+    jQuery(this).addClass('sumable');
+  });
 
 });
