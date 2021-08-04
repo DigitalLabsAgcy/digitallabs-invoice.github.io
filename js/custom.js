@@ -1,8 +1,12 @@
 
-jQuery('.sub-paquete .basic').click(function() {
+jQuery(document).ready(function() {
 
-  console.log(jQuery(this).data('price'));
+/*jQuery('.sub-paquete .basic').click(function() {
+
+  jQuery(this).data('price');
+
+});*/
+
+console.log(jQuery('.sub-paquete .basic').data('price'));
 
 });
-
-jQuery('.sub-paquete .basic').data('price');
