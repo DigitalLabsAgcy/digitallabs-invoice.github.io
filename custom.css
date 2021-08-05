@@ -112,6 +112,7 @@ section {
 .widget {
     margin: 0 2em;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .intern-row {
@@ -186,6 +187,10 @@ li {
     padding: .3em 0;
 }
 
+.membresias-section .three-columns-row {
+	margin-bottom: 2em;
+}
+
 .membresias-section .widget {
 	margin-bottom: 0;
 	border-bottom-left-radius: 0;
@@ -197,9 +202,14 @@ li {
 .price-widget {
 	margin: 0 4em;
     background-color: var(--color-blue);
-    box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 20%);
+    border: 1px solid var(--color-blue);
 	border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+
+.price-widget.active {
+	box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 20%);
 }
 
 .price-widget h2 {
@@ -207,6 +217,18 @@ li {
     color: white;
     font-weight: 700;
     padding: .5em 0;
+}
+
+button {
+    background-color: var(--color-red-2);
+    font-family: var(--font-general);
+    color: #fff;
+    border: 0;
+    border-radius: 100px;
+    font-size: .9rem!important;
+    padding: .3em 1em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .so-dev .row-paquetes .widget, .membresias-section .row-paquetes .widget {
