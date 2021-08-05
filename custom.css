@@ -136,7 +136,7 @@ li {
 
 .row-paquetes .widget.active {
 	box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 20%);
-	border-color: none;
+	border-color: transparent;
 }
 
 .content-support input {
