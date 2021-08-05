@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 
   total = (parseInt(contenido) + parseInt(diseño));
 
-  console.log(parseInt(contenido) + parseInt(diseño));
+  console.log("Total:" + total);
 
   if( $('.micheckbox').is(':checked') ) {
     
