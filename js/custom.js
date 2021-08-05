@@ -4,26 +4,32 @@ jQuery(document).ready(function() {
   var contenido = "";
   var diseño = "";
   var pagContenido = "";
+  var total = "";
 
-  jQuery('.sup-paquete .basic').click(function() {
-
+  jQuery('.content-support .widget').click(function() {
+    jQuery('.widget').removeClass('active');
+    jQuery(this).addClass('active');
     contenido = jQuery(this).data('price');
 
-    console.log(contenido);
-  
+    console.log( "precio: " + contenido);
   });
 
-  jQuery('.sup-paquete .basic').click(function() {
+  jQuery('.design-support .widget').click(function() {
+    jQuery('.widget').removeClass('active');
+    jQuery(this).addClass('active');
+    diseño = jQuery(this).data('price');
 
-    pagContenido = jQuery('.cant-paginas').val();
-
-    console.log(pagContenido);
-  
+    console.log( "precio: " + diseño);
   });
 
-  jQuery('.sup-paquete .complete').click(function() {
+  total = (parseInt(contenido) + parseInt(diseño));
 
-    jQuery(this).data('price');
-  });
+  console.log(parseInt(contenido) + parseInt(diseño));
+
+  if( $('.micheckbox').is(':checked') ) {
+    
+
+
+  }
 
 });

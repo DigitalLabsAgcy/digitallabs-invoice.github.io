@@ -128,10 +128,15 @@ li {
 }
 
 .row-paquetes .widget {
-    box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 20%);
+    border: 1px solid var(--color-blue);
     border-radius: 1rem;
     padding: 1em;
     background-color: white;
+}
+
+.row-paquetes .widget.active {
+	box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 20%);
+	border-color: none;
 }
 
 .content-support input {
