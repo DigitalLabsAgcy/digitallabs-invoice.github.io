@@ -197,6 +197,7 @@ li {
     border-bottom-right-radius: 0;
     min-height: 16em;
     margin: 0 4em;
+    cursor: default;
 }
 
 .price-widget {
