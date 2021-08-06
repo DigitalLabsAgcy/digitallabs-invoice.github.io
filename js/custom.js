@@ -2,8 +2,9 @@
 jQuery(document).ready(function() {
 
   var contenido = "";
-  var diseño = "";
   var pagContenido = "";
+  var diseño = "";
+  var productos = "";
   var dev = "";
   var member = "";
   var total = 0;
@@ -25,9 +26,17 @@ jQuery(document).ready(function() {
   });
 
 
-  /*if( $('.micheckbox').is(':checked') ) {
+  jQuery('.productos').on('change',function() {
     
-  }*/
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      productos = jQuery(this).val();
+
+      console.log('Checked: ' + productos)
+    }
+
+  });
 
   jQuery('.so-dev .widget').click(function() {
     jQuery('.so-dev .widget').removeClass('active');
