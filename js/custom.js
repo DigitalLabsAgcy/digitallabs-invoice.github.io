@@ -5,6 +5,7 @@ jQuery(document).ready(function() {
   var diseño = "";
   var pagContenido = "";
   var dev = "";
+  var member = "";
   var total = 0;
 
   jQuery('.content-support .widget').click(function() {
@@ -24,9 +25,9 @@ jQuery(document).ready(function() {
   });
 
 
-  if( $('.micheckbox').is(':checked') ) {
+  /*if( $('.micheckbox').is(':checked') ) {
     
-  }
+  }*/
 
   jQuery('.so-dev .widget').click(function() {
     jQuery('.so-dev .widget').removeClass('active');
