@@ -3,9 +3,21 @@ jQuery(document).ready(function() {
 
   var contenido = "";
   var pagContenido = "";
+
   var diseño = "";
+
   var productos = "";
+  var state = "";
+  var lms = "";
+  var eventos = "";
+  var tickets = "";
+  var multilingue = "";
+  var reservas = "";
+  var login = "";
+  var paypal = "";
+  
   var dev = "";
+  
   var member = "";
   var total = 0;
 
@@ -33,10 +45,99 @@ jQuery(document).ready(function() {
 
       productos = jQuery(this).val();
 
-      console.log('Checked: ' + productos)
+      console.log('Checked: ' + productos);
     }
 
   });
+  jQuery('.real-estate').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      state = jQuery(this).val();
+
+      console.log('Checked: ' + state);
+    }
+
+  });
+  jQuery('.lms').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      lms = jQuery(this).val();
+
+      console.log('Checked: ' + lms);
+    }
+
+  });
+  jQuery('.eventos').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      eventos = jQuery(this).val();
+
+      console.log('Checked: ' + eventos);
+    }
+
+  });
+  jQuery('.tickets').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      tickets = jQuery(this).val();
+
+      console.log('Checked: ' + tickets);
+    }
+
+  });
+  jQuery('.multilingue').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      multilingue = jQuery(this).val();
+
+      console.log('Checked: ' + multilingue);
+    }
+
+  });
+  jQuery('.reservas').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      reservas = jQuery(this).val();
+
+      console.log('Checked: ' + reservas);
+    }
+
+  });
+  jQuery('.login').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      login = jQuery(this).val();
+
+      console.log('Checked: ' + login);
+    }
+
+  });
+  jQuery('.paypal').on('change',function() {
+    
+    if(this.checked) { 
+      jQuery('.check-option').addClass('active');
+
+      paypal = jQuery(this).val();
+
+      console.log('Checked: ' + paypal);
+    }
+
+  });
+
 
   jQuery('.so-dev .widget').click(function() {
     jQuery('.so-dev .widget').removeClass('active');
