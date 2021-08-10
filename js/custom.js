@@ -51,13 +51,7 @@ jQuery(document).ready(function() {
     cantCursos = jQuery('.cant-cursos').val();
     cantEvent = jQuery('.cant-eventos').val();
 
-    total = (
-      parseInt(contenido) + 
-      parseInt(diseño) + parseInt(dev) + 
-      parseInt(member) +
-      parseInt(pagContenido * 100)
-
-      );
+    total = (parseInt(contenido) + parseInt(diseño) + parseInt(dev) + parseInt(member) + parseInt(pagContenido));
 
     console.log("Total:" + total);
   });
