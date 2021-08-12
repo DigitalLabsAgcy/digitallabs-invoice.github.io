@@ -51,6 +51,12 @@ jQuery(document).ready(function() {
     cantCursos = jQuery('.cant-cursos').val();
     cantEvent = jQuery('.cant-eventos').val();
 
+    console.log("Cant Pag:" + pagContenido);
+    console.log("Cant Prod:" + cantProd);
+    console.log("Cant Prop:" + cantProp);
+    console.log("Cant Cursos:" + cantCursos);
+    console.log("Cant Event:" + cantEvent);
+
     total = (parseInt(contenido) + (parseInt(pagContenido) * 100) + parseInt(diseño) + (parseInt(productos) * parseInt(cantProd)) + (parseInt(state) * parseInt(cantProp)) + (parseInt(lms) * parseInt(cantCursos)) + (parseInt(eventos) * parseInt(cantEvent)) + parseInt(tickets) + parseInt(dev) + parseInt(member));
 
     console.log("Total:" + total);
