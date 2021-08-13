@@ -1,46 +1,46 @@
 
 jQuery(document).ready(function() {
 
-  var contenido = "";
+  var contenido = 0;
   var pagContenido = "";
 
-  var diseño = "";
+  var diseño = 0;
 
-  var productos = "";
+  var productos = 0;
   var cantProd = "";
-  var state = "";
+  var state = 0;
   var cantProp = "";
-  var lms = "";
+  var lms = 0;
   var cantCursos = "";
-  var eventos = "";
+  var eventos = 0;
   var cantEvent = "";
-  var tickets = "";
-  var multilingue = "";
-  var reservas = "";
-  var login = "";
-  var paypal = "";
+  var tickets = 0;
+  var multilingue = 0;
+  var reservas = 0;
+  var login = 0;
+  var paypal = 0;
 
-  var eCommerce = "";
-  var importInfo = "";
-  var distribuidor = "";
-  var dynamicPrice = "";
-  var memberSystem = "";
-  var marketplace = "";
-  var afiliado = "";
-  var shutterstuck = "";
-  var comparisson = "";
-  var monedas = "";
-  var selling = "";
-  var pointSystem = "";
-  var suscription = "";
-  var brands = "";
-  var wishlist = "";
-  var zappier = "";
-  var forced = "";
+  var eCommerce = 0;
+  var importInfo = 0;
+  var distribuidor = 0;
+  var dynamicPrice = 0;
+  var memberSystem = 0;
+  var marketplace = 0;
+  var afiliado = 0;
+  var shutterstuck = 0;
+  var comparisson = 0;
+  var monedas = 0;
+  var selling = 0;
+  var pointSystem = 0;
+  var suscription = 0;
+  var brands = 0;
+  var wishlist = 0;
+  var zappier = 0;
+  var forced = 0;
   
-  var dev = "";
+  var dev = 0;
   
-  var member = "";
+  var member = 0;
   var total = 0;
 
   jQuery('.membresias-section .cotizar').click(function() {
@@ -57,7 +57,7 @@ jQuery(document).ready(function() {
     console.log("Cant Cursos:" + cantCursos);
     console.log("Cant Event:" + cantEvent);
 
-    total = (parseInt(contenido) + (parseInt(pagContenido) * 100) + parseInt(diseño) + (parseInt(productos) * parseInt(cantProd)) + (parseInt(state) * parseInt(cantProp)) + (parseInt(lms) * parseInt(cantCursos)) + (parseInt(eventos) * parseInt(cantEvent)) + parseInt(tickets) + parseInt(dev) + parseInt(member));
+    total = (parseInt(contenido) + (parseInt(pagContenido) * parseInt(100)) + parseInt(diseño) + (parseInt(productos) * parseInt(cantProd)) + (parseInt(state) * parseInt(cantProp)) + (parseInt(lms) * parseInt(cantCursos)) + (parseInt(eventos) * parseInt(cantEvent)) + parseInt(tickets) + parseInt(dev) + parseInt(member));
 
     console.log("Total:" + total);
   });
