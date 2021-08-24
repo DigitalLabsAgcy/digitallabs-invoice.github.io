@@ -51,13 +51,13 @@ jQuery(document).ready(function() {
     cantCursos = jQuery('.cant-cursos').val();
     cantEvent = jQuery('.cant-eventos').val();
 
-    console.log(parseInt(pagContenido) * 100);
-    console.log(parseInt(state) * parseFloat(cantProd));
-    console.log(parseInt(state) * parseFloat(cantProp));
-    console.log(parseInt(lms) * parseFloat(cantCursos));
-    console.log(parseInt(eventos) * parseFloat(cantEvent));
+    var inputPag = parseInt(pagContenido) * 100;
+    var inputProd = parseInt(state) * parseFloat(cantProd);
+    var inputProp = parseInt(state) * parseFloat(cantProp);
+    var inputCursos = parseInt(lms) * parseFloat(cantCursos);
+    var inputEvent = parseInt(eventos) * parseFloat(cantEvent);
 
-    total = (parseInt(contenido) + (parseInt(pagContenido) * parseInt(100)) + parseInt(diseño) + (parseInt(productos) * parseInt(cantProd)) + (parseInt(state) * parseFloat(cantProp)) + (parseInt(lms) * parseFloat(cantCursos)) + (parseInt(eventos) * parseFloat(cantEvent)) + parseInt(tickets) + parseInt(dev) + parseInt(member));
+    total = (parseInt(contenido) + parseInt(inputPag) + parseInt(diseño) + parseInt(inputProd) + parseInt(inputProp) + parseInt(inputCursos) + parseInt(inputEvent) + parseInt(tickets) + parseInt(multilingue) + parseInt(dev) + parseInt(member));
 
     console.log("Total:" + total);
   });
