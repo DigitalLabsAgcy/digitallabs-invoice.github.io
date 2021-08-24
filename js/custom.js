@@ -72,7 +72,7 @@ jQuery(document).ready(function() {
       inputEvent = parseInt(eventos) * parseFloat(cantEvent);
     }
 
-    total = (parseInt(contenido) + parseInt(inputPag) + parseInt(diseño) + parseInt(inputProd) + parseInt(inputProp) + parseInt(inputCursos) + parseInt(inputEvent) + parseInt(tickets) + parseInt(multilingue) + parseInt(dev) + parseInt(member));
+    total = (parseInt(contenido) + parseInt(inputPag) + parseInt(diseño) + parseInt(inputProd) + parseInt(inputProp) + parseInt(inputCursos) + parseInt(inputEvent) + parseInt(tickets) + parseInt(multilingue) + parseInt(reservas) + parseInt(login) + parseInt(paypal) + parseInt(eCommerce) + parseInt(importInfo) + parseInt(distribuidor) + parseInt(dynamicPrice) + parseInt(memberSystem) + parseInt(marketplace) + parseInt(afiliado) + parseInt(shutterstuck) + parseInt(comparisson) + parseInt(monedas) + parseInt(selling) + parseInt(pointSystem) + parseInt(suscription) + parseInt(brands) + parseInt(wishlist) + parseInt(zappier) + parseInt(forced) + parseInt(dev) + parseInt(member));
 
     console.log("Total:" + total);
   });
