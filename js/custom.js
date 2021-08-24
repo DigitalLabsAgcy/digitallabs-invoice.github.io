@@ -59,10 +59,18 @@ jQuery(document).ready(function() {
     cantEvent = jQuery('.cant-eventos').val();
 
     inputPag = parseInt(pagContenido) * 100;
-    inputProd = parseInt(state) * parseFloat(cantProd);
-    inputProp = parseInt(state) * parseFloat(cantProp);
-    inputCursos = parseInt(lms) * parseFloat(cantCursos);
-    inputEvent = parseInt(eventos) * parseFloat(cantEvent);
+    if('.productos'.checked) {
+      inputProd = parseInt(productos) * parseFloat(cantProd);
+    }
+    if('.real-estate'.checked) {
+      inputProp = parseInt(state) * parseFloat(cantProp);
+    }
+    if('.lms'.checked) {
+      inputCursos = parseInt(lms) * parseFloat(cantCursos);
+    }
+    if('.eventos'.checked) {
+      inputEvent = parseInt(eventos) * parseFloat(cantEvent);
+    }
 
     total = (parseInt(contenido) + parseInt(inputPag) + parseInt(diseño) + parseInt(inputProd) + parseInt(inputProp) + parseInt(inputCursos) + parseInt(inputEvent) + parseInt(tickets) + parseInt(multilingue) + parseInt(dev) + parseInt(member));
 
