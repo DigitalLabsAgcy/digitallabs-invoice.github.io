@@ -2,18 +2,18 @@
 jQuery(document).ready(function() {
 
   var contenido = 0;
-  var pagContenido = "";
+  var pagContenido = 0;
 
   var diseño = 0;
 
   var productos = 0;
-  var cantProd = "";
+  var cantProd = 0;
   var state = 0;
-  var cantProp = "";
+  var cantProp = 0;
   var lms = 0;
-  var cantCursos = "";
+  var cantCursos = 0;
   var eventos = 0;
-  var cantEvent = "";
+  var cantEvent = 0;
   var tickets = 0;
   var multilingue = 0;
   var reservas = 0;
