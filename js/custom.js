@@ -41,6 +41,13 @@ jQuery(document).ready(function() {
   var dev = 0;
   
   var member = 0;
+
+  var inputPag = 0;
+  var inputProd = 0;
+  var inputProp = 0;
+  var inputCursos = 0;
+  var inputEvent = 0;
+
   var total = 0;
 
   jQuery('.membresias-section .cotizar').click(function() {
@@ -51,11 +58,11 @@ jQuery(document).ready(function() {
     cantCursos = jQuery('.cant-cursos').val();
     cantEvent = jQuery('.cant-eventos').val();
 
-    var inputPag = parseInt(pagContenido) * 100;
-    var inputProd = parseInt(state) * parseFloat(cantProd);
-    var inputProp = parseInt(state) * parseFloat(cantProp);
-    var inputCursos = parseInt(lms) * parseFloat(cantCursos);
-    var inputEvent = parseInt(eventos) * parseFloat(cantEvent);
+    inputPag = parseInt(pagContenido) * 100;
+    inputProd = parseInt(state) * parseFloat(cantProd);
+    inputProp = parseInt(state) * parseFloat(cantProp);
+    inputCursos = parseInt(lms) * parseFloat(cantCursos);
+    inputEvent = parseInt(eventos) * parseFloat(cantEvent);
 
     total = (parseInt(contenido) + parseInt(inputPag) + parseInt(diseño) + parseInt(inputProd) + parseInt(inputProp) + parseInt(inputCursos) + parseInt(inputEvent) + parseInt(tickets) + parseInt(multilingue) + parseInt(dev) + parseInt(member));
 
