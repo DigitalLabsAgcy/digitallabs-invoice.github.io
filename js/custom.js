@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
     cantCursos = jQuery('.cant-cursos').val();
     cantEvent = jQuery('.cant-eventos').val();
 
-    console.log(parseInt(pagContenido) * parseInt(100));
+    console.log(parseInt(pagContenido) * 100);
     console.log(parseInt(state) * parseFloat(cantProd));
     console.log(parseInt(state) * parseFloat(cantProp));
     console.log(parseInt(lms) * parseFloat(cantCursos));
