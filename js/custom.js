@@ -1,6 +1,7 @@
 
 jQuery(document).ready(function() {
 
+  var ArrayAgregado = [];//aqui declare la variable en array
   var contenido = 0;
   var pagContenido = 0;
 
@@ -78,7 +79,9 @@ jQuery(document).ready(function() {
   });
 
   jQuery('.content-support .widget').click(function() {
+
     jQuery('.content-support .widget').removeClass('active');
+
     jQuery(this).addClass('active');
     contenido = jQuery(this).data('price');
 
@@ -168,7 +171,7 @@ jQuery(document).ready(function() {
       reservas = jQuery(this).val();
 
       console.log('Checked: ' + reservas);
-    }
+    }|
 
   });
   jQuery('.login').on('change',function() {
@@ -399,7 +402,19 @@ jQuery(document).ready(function() {
 
     console.log( "precio: " + member);
   });
-
-  
-
 });
+
+function generapdf(){
+      var Telefono = "1234-1234";
+
+      var CantPaginaInfo = $("#CantPaginaInfo").val();
+
+      var Url = "pdf.php?NombreFac=Pablo Valle";
+          Url += "&Direccion=Pastores Sacatepequez";
+          Url += "&Telefono="+Telefono;
+          Url += "&NIT=8329949-1";
+          Url += "&CantPaginaInfo="+CantPaginaInfo;
+       
+
+       window.open(Url, "_blank", "height=800px, width=600px");
+    }
