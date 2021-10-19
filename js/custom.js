@@ -404,17 +404,3 @@ jQuery(document).ready(function() {
   });
 });
 
-function generapdf(){
-      var Telefono = "1234-1234";
-
-      var CantPaginaInfo = $("#CantPaginaInfo").val();
-
-      var Url = "pdf.php?NombreFac=Pablo Valle";
-          Url += "&Direccion=Pastores Sacatepequez";
-          Url += "&Telefono="+Telefono;
-          Url += "&NIT=8329949-1";
-          Url += "&CantPaginaInfo="+CantPaginaInfo;
-       
-
-       window.open(Url, "_blank", "height=800px, width=600px");
-    }
