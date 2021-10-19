@@ -171,7 +171,7 @@ jQuery(document).ready(function() {
       reservas = jQuery(this).val();
 
       console.log('Checked: ' + reservas);
-    }|
+    }
 
   });
   jQuery('.login').on('change',function() {
